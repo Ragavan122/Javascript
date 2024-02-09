@@ -1,0 +1,66 @@
+body{
+
+    background-color: blueviolet;
+    margin:0;
+
+}
+
+
+
+#form{
+
+  width:400px;
+  margin:10vh auto 0 auto;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 30px;
+
+
+}
+
+h1{
+    color:blueviolet;
+    text-align: center;
+}
+
+#form button{
+
+    background-color: blueviolet;
+    color: white;
+    border:1px solid blueviolet;
+    padding: 10px;
+    margin:20px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width:100%;
+
+}
+
+.input-group{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+   
+}
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(34, 193, 195);
+}
+
+.input-group input:focus{
+    outline: 0;
+}
+
+.input-group .error{
+    color:red;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.input-group .success input{
+border-color:#0cc477;
+}
