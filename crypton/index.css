@@ -1,0 +1,652 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Styling for order status page */
+
+
+.order-status{
+
+background-color:black;
+color:white;
+padding: 20px;
+display: grid;
+gap:10px;
+
+grid-template-columns:repeat(1,1fr);
+justify-content: space-evenly;
+
+}
+
+
+.item{
+
+  padding: 20px;
+  background-color: white;
+  color:black;
+  border-radius: 20px;
+  
+ 
+
+}
+
+
+
+
+.row1{
+ display: grid;
+ grid-template-columns:repeat(2,1fr);
+
+}
+
+
+.row2{
+  display: flex;
+  gap:2rem;
+  margin-top:5px ;
+  
+}
+
+.row2 i{
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: orange;
+  padding: 10px;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+  .order-status{
+
+      background-color:black;
+      color:white;
+      padding: 20px;
+      display: grid;
+      gap:10px;
+      
+      grid-template-columns:repeat(2,1fr);
+      justify-content: space-evenly;
+      
+      
+      }
+} 
+
+@media only screen and (min-width: 992px) {
+
+  .order-status{
+
+      background-color:black;
+      color:white;
+      padding: 20px;
+      display: grid;
+      gap:10px;
+      
+      grid-template-columns:repeat(4,1fr);
+      justify-content: space-evenly;
+      
+      
+      }
+} 
+
+
+/* ---------- */
+
+/* Styling for course table page */
+
+.t-row1 h2{
+  display: inline;
+  padding: 20px;
+ 
+  
+}
+
+.t-row1{
+  display: flex;
+justify-content: space-between;
+
+
+}
+
+.t-row1 .col-2{
+  color: indigo;
+}
+
+
+
+
+.table{
+  
+  display:   flex;
+  flex-direction: column;
+  gap:20px;
+
+  border-collapse: collapse;
+}
+
+
+
+table{
+  background-color: white;
+  color:black;
+  width: 100%;
+  border-collapse: collapse;
+
+ 
+}
+
+thead{
+  color: gray;
+}
+
+
+tbody td {
+text-align: center;
+padding-top:2rem;
+}
+
+tbody td i{
+  font-size: 30px;
+  border-radius: 10%;
+  background-color: rgb(144, 0, 255);
+  padding: 10px;
+  margin-right: 10px;
+
+}
+
+
+
+/* ---------- */
+
+
+
+/* ------------------------------------------ */
+
+/* Styling for Home Screen */
+
+
+.home-screen{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* gap:1rem */
+
+}
+
+.row31{
+  display: flex;
+  padding: 20px;
+  gap:10px;
+
+}
+
+.row31 .round{
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(0, 0, 0,.5px);
+}
+
+
+.row31 .search input{
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius:10px ;
+  font-size: 19px;
+  
+
+}
+
+
+.row31 .search i{
+  font-size: 20px;
+  margin-left: -30px;
+ 
+  
+
+
+}
+
+.row31 .hamb{
+  font-size: 40px;
+  margin-left: 20px;
+
+}
+
+.row32{
+  padding: 30px;
+}
+
+.row32 .button button{
+  padding: 10px 30px; 
+  background-color:rgb(6, 101, 124);
+  border: none;
+  color: white;
+  font-size:17px ;
+  border-radius: 30px;
+}
+
+.row32 .content1{
+  margin-top: 10px;
+
+}
+.row32 .content2{
+  margin-top: 18px;
+  color: rgb(169, 159, 159);
+
+}
+
+
+.row33{
+  padding: 30px;
+  display: flex;
+  gap:10px
+}
+
+.row33 i{
+  font-size: 55px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+
+.row33 .cont88 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.row34{
+  display: flex;
+  gap:10px;
+  padding-left: 30px;
+}
+
+.row34 .square{
+  width:200px;
+  height:100px;
+  background:linear-gradient(red,blue);
+}
+
+.row34 .square span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:50%;
+  color: white;
+  
+}
+
+.recte{
+  position: relative;
+  display: flex;
+}
+
+.rect{
+  height:100px;
+  width:50px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  
+}
+.rect2{
+  height:50px;
+  width:50px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;;
+
+
+}
+
+
+
+.row35{
+  display: flex;
+
+  gap:10px;
+  flex-direction: column;
+  padding: 30px;
+}
+
+
+.row-35a button{
+  outline: none;
+  padding: 10px 30px; 
+  background-color:rgb(251, 254, 255);
+  border: none;
+  color: black;
+  font-size:17px ;
+  border-radius: 10px;
+ 
+
+
+}
+
+
+.row-35b button{
+  outline: none;
+  padding: 10px 30px; 
+  background-color:rgb(2, 2, 2);
+  border: none;
+  color: rgb(220, 213, 213);
+  font-size:17px ;
+  border-radius: 10px;
+
+}
+
+
+ 
+
+/* Styling for Tranaction page */
+
+
+ .transaction .t-row1 h2{
+  display: inline;
+  padding: 20px;
+}
+
+.transaction .t-row1{
+  display: flex;
+justify-content: space-between;
+
+
+}
+
+
+.t-row1 .col-2{
+  color: gray;
+}
+
+
+.tr-item{
+  background-color: aliceblue;
+  margin: 1rem;
+  border-radius: 20px;
+  padding: 5px;
+  display: grid;
+  gap:2rem;
+  grid-template-columns: repeat(1,1fr);
+  grid-auto-flow:column ;
+ 
+  
+
+
+}
+
+.tr-col-11 i{
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: orange;
+  padding: 20px;
+
+}
+
+.tr-col-12 h4{
+  color: gray;
+}
+
+.tr-col-13 h4{
+  color: rgb(53, 50, 50);
+}
+
+.tr-col-13 h2{
+  color:green;
+}
+
+.tr-codes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+/* --------------------------------------------------------------------------------------- */
+
+
+/* styling for trans2 */
+
+@media only screen and (min-width: 600px) {
+  .trans-all{
+    background-color: black;
+    color:white;
+    padding: 5px;
+  }
+  
+  
+  .tr-head .items{
+    display: inline;
+  }
+  
+  
+  .tr-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    font-size: 3rem;
+  
+  }
+  
+  
+  .t-left{
+    color:blueviolet
+    
+  }
+  
+  
+  .tr-body-all{
+  
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  
+  }
+  
+  
+  .tr-body-all .item1{
+    background-color: white;
+    color:black;
+    margin: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+  
+  }
+  .tr-body-all .item1 .tr-icon1{
+    font-size: 5rem;
+    background-color:gray;
+    color:orange;
+    border-radius: 50%;
+    
+  }
+  
+  .tr-body-item h2{
+    font-size: 2rem;
+  
+  }
+  
+  .tr-body-item h4{
+    font-size: 1.5rem;
+  
+  }
+  
+  .tr-body-item2 h4{ 
+    color:gray;
+  }
+  .tr-body-item3 h2{ 
+    color:green;
+  }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 996px) {
+  .trans-all{
+    background-color: black;
+    color:white;
+    padding: 5px;
+  }
+  
+  
+  .tr-head .items{
+    display: inline;
+  }
+  
+  
+  .tr-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+    font-size: 3rem;
+  
+  }
+  
+  
+  .t-left{
+    color:blueviolet
+    
+  }
+  
+  
+  .tr-body-all{
+  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  
+  }
+  
+  
+  .tr-body-all .item1{
+    background-color: white;
+    color:black;
+    margin: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+  
+  }
+  .tr-body-all .item1 .tr-icon1{
+    font-size: 5rem;
+    background-color:gray;
+    color:orange;
+    border-radius: 50%;
+    
+  }
+  
+  .tr-body-item h2{
+    font-size: 2rem;
+  
+  }
+  
+  .tr-body-item h4{
+    font-size: 1.5rem;
+  
+  }
+  
+  .tr-body-item2 h4{ 
+    color:gray;
+  }
+  .tr-body-item3 h2{ 
+    color:green;
+  }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+  .trans-all{
+    background-color: black;
+    color:white;
+    padding: 5px;
+  }
+  
+  
+  .tr-head .items{
+    display: inline;
+  }
+  
+  
+  .tr-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+    font-size: 3rem;
+  
+  }
+  
+  
+  .t-left{
+    color:blueviolet
+    
+  }
+  
+  
+  .tr-body-all{
+  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  
+  }
+  
+  
+  .tr-body-all .item1{
+    background-color: white;
+    color:black;
+    margin: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+  
+  }
+  .tr-body-all .item1 .tr-icon1{
+    font-size: 5rem;
+    background-color:gray;
+    color:orange;
+    border-radius: 50%;
+    
+  }
+  
+  .tr-body-item h2{
+    font-size: 2rem;
+  
+  }
+  
+  .tr-body-item h4{
+    font-size: 1.5rem;
+  
+  }
+  
+  .tr-body-item2 h4{ 
+    color:gray;
+  }
+  .tr-body-item3 h2{ 
+    color:green;
+  }
+
+}
